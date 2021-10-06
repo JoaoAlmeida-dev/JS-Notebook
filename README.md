@@ -1,5 +1,8 @@
 # JS-Notebook
 
+A notebook to hold my mini projects that I am making in order to learn and practice Javascript
+The first one is a youtube course which guides me through 15 projects by FreeCodeCamp.org and John-Smilga
+
 ## Purpose
 
 1. Learning
