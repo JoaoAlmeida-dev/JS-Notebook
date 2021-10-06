@@ -5,18 +5,19 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener('click',function(){
-
+    
     let hexColor = '#';
-    for(let i = 0 ; i<=6 ; i++){
+    for(let i = 0 ; i<6 ; i++){
         hexColor += hex[getRandomHexChar()];
     }
+
     document.body.style.backgroundColor = hexColor;
     color.textContent = hexColor;
 });
 
 function getRandomHexChar(){
-    hexcolor = Math.floor(Math.random()*hex.length)
+    let index = Math.floor(Math.random()*hex.length)
     
-    console.log(hexColor)
-    return hexColor;
+    console.log(index)
+    return index;
 }
